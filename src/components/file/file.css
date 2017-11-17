@@ -1,0 +1,29 @@
+.file {
+	box-shadow: 0 0 6px 0 rgba(0,0,0,0.2);
+	background: white;
+	display: inline-block;
+	margin: 1.5vw 1vw;
+	cursor: pointer;
+}
+.file .thumb {
+	width: 256px;
+	height: 164px;
+	background: rgba(0,0,0,0.1);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.file .desc {
+	padding: 1vw 1.5vw;
+}
+.file h2 {
+	font-family: sans-serif;
+	font-size: 1.2em;
+	color: #212121;
+}
+.file h3 {
+	font-family: sans-serif;
+	font-size: 1em;
+	color: rgba(0,0,0,0.54)
+}

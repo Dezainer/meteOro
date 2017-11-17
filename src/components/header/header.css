@@ -1,0 +1,10 @@
+header {
+	padding: 24px;
+	color: white;
+	background: #3E3333;
+}
+
+header h1 {
+	font-family: sans-serif;
+	font-size: 1.75em;
+}

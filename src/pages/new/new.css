@@ -1,0 +1,33 @@
+.new h2 {
+	font-family: sans-serif;
+	color: #212121;
+	padding-bottom: 10px;
+}
+
+.new input, button {
+	width: 30vw;
+	padding: 15px;
+	display: block;
+	box-sizing: border-box;
+	border: none;
+	margin-top: 10px;
+}
+
+.new input {
+	background: rgba(0,0,0,0.1);
+}
+.new input:focus {
+	outline: 1px solid #3E3333;
+}
+
+.new button {
+	color: white;
+	font-weight: bold;
+	background: #3E3333;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+.new button:hover {
+	padding: 20px 0;
+}
