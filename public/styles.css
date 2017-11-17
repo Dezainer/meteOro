@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+}header {
+	padding: 24px;
+	color: white;
+	background: #3E3333;
+}
+
+header h1 {
+	font-family: sans-serif;
+	font-size: 1.75em;
+}.button {
+	position: fixed;
+	right: 32px;
+	bottom: 32px;
+	padding: 18px 24px;
+	background: #3E3333;
+	display: inline-block;
+	border-radius: 50%;
+	box-shadow: 0 0 30px 0 rgba(0,0,0,0.5);
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+.button:hover {
+	bottom: 36px;
+	opacity: 0.5;
+}
+.button span {
+	font-family: sans-serif;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: white;
+}.file {
+	box-shadow: 0 0 6px 0 rgba(0,0,0,0.2);
+	background: white;
+	display: inline-block;
+	margin: 1.5vw 1vw;
+	cursor: pointer;
+}
+.file .thumb {
+	width: 256px;
+	height: 164px;
+	background: rgba(0,0,0,0.1);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.file .desc {
+	padding: 1vw 1.5vw;
+}
+.file h2 {
+	font-family: sans-serif;
+	font-size: 1.2em;
+	color: #212121;
+}
+.file h3 {
+	font-family: sans-serif;
+	font-size: 1em;
+	color: rgba(0,0,0,0.54)
+}.new h2 {
+	font-family: sans-serif;
+	color: #212121;
+	padding-bottom: 10px;
+}
+
+.new input, button {
+	width: 30vw;
+	padding: 15px;
+	display: block;
+	box-sizing: border-box;
+	border: none;
+	margin-top: 10px;
+}
+
+.new input {
+	background: rgba(0,0,0,0.1);
+}
+.new input:focus {
+	outline: 1px solid #3E3333;
+}
+
+.new button {
+	color: white;
+	font-weight: bold;
+	background: #3E3333;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+.new button:hover {
+	padding: 20px 0;
+}.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0,0,0,0.5);
+	z-index: 20;
+}
+
+.modal .content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 40px;
+}.display {
+	width: 50vw;
+	height: 80vh;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
